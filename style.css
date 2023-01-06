@@ -1,0 +1,6 @@
+/* Remove initial padding and margin. Set default background color. */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}

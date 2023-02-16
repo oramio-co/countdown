@@ -26,17 +26,48 @@ img {
   margin: 10% 5%;
 }
 
-h2 {
+@media screen and (min-width: 900px) {
+  .section-center {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .giveaway-content {
+    padding: 0 5%;
+  }
+}
+
+.giveaway-content h2 {
   color: #2A668C;
 }
 
-h4 {
+@media screen and (min-width: 900px) {
+  .giveaway-content h2 {
+    margin: 0;
+  }
+}
+
+.giveaway-content h4 {
   font-size: .9rem;
+}
+
+@media screen and (min-width: 900px) {
+  .giveaway-content h4 {
+    margin: 0;
+    margin-top: 1%;
+  }
 }
 
 .timer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (min-width: 900px) {
+  .timer {
+    margin: 0 5%;
+  }
 }
 
 .deadline-format {
@@ -51,7 +82,9 @@ h4 {
 .deadline-format h4 {
   color: white;
   font-size: 1.8rem;
+  display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0;
   padding-top: 10%;
 }
@@ -59,4 +92,10 @@ h4 {
 .deadline-format span {
   color: white;
   padding: 5% 0 15%;
+}
+
+@media screen and (min-width: 700px) {
+  .deadline-format span {
+    font-size: 1.5rem;
+  }
 }
